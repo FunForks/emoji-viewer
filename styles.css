@@ -1,0 +1,32 @@
+body {
+
+  margin: 0;
+  background-color: #000;
+  color: #ccc;
+
+  min-height: 100vh;
+
+  --min: calc(1/15 * (100vw - 20px));
+  font-size: min(64px, var(--min));
+}
+
+
+main {
+  margin: 0 auto;
+}
+pre {
+  margin: 1.5em 0;
+}
+
+pre.header {
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+pre.footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
+
